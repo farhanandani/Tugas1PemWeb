@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 80%;
+}
+
+.warnanavbar{
+    width: 100%;
+    height: 8%;
+    background-image: linear-gradient(#1f012b, #550173);
+}
+
+.warna{
+    font-size: 25px;
+    color: aqua;
+}
+
+li{
+    padding-right: 10px;
+}  
+
+header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('image/wallpaper.png');
+    
+}
+.judul{
+    position: absolute;
+    z-index: 30;
+    line-height: 4rem;
+    top: calc(50% - 20rem);
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+    color:hotpink;
+}
+
+img.imginti{
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 185px;
+    opacity: 0.5;
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    background-image: linear-gradient( #22004b, #86009b, #22004b);
+}
+
+p1{
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+    color: azure;
+}
+
+p2{
+    margin-left: 25px;
+    margin-top: 75px;
+    margin-right: 25px;
+    font-size: 20px;
+    color: azure;
+}
+
+p3{
+    font-size: 25px;
+    color: azure;
+}
+
+.bawah{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-image: linear-gradient(#22004b, #000000);
+}
+
+.sumber{
+    font-size: 25px;
+    color: aqua;
+}
